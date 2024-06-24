@@ -8,12 +8,12 @@ document.addEventListener("DOMContentLoaded", function() {
   }
 
   function getCurrentPath() {
-    return window.location.pathname;
+    return window.location.pathname
   }
 
   document.querySelectorAll('nav a').forEach(link => {
     link.addEventListener('click', function() {
-      const href = this.getAttribute('href');
+      const href = this.getAttribute('href') 
       localStorage.setItem('activeLink', href)
       setActiveLink(href)
     })
