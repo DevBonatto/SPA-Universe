@@ -29,5 +29,4 @@ export class Router {
   updateBodyClass(routeName) {
     document.body.className = routeName.replace(/\//g, '') || 'home'
   }
-
 }
