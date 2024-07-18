@@ -17,22 +17,12 @@ export class Router {
   handle() {
     const routeName = window.location.pathname
     const route = this.routes[routeName] || this.routes[404]
-
-    if(route === this.routes[404]) {
-      fetch(route)
-      .then(data => data.text())
-      .then(html => {
-        document.querySelector('#app').innerHTML = html
-        this.updateBodyClass('invalidPath')
-      }) 
-      return
-    }
   
     fetch(route)
     .then(data => data.text())
     .then(html => {
       document.querySelector('#app').innerHTML = html
-      this.updateBodyClass(routeName)
+      this.updateBodyClass(route === this.routes[404] ? 'invalidPath' : routeName)
     })    
   }
 
