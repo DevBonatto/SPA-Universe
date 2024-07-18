@@ -42,7 +42,14 @@ Neste desafio foi criado uma Single Page Application (SPA). Temas aplicados:
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/mWWxLYCbpmM3rMqWB7lKV8/Stage-05-Focus-Timer-2.0-Copy?fuid=1369823793362288511)
 
 ## 💻 Iniciar o projeto
-Clone o repositório na sua máquina pelo comando: "git clone https://github.com/DevBonatto/SPA-Universe.git" e em seguida use o comando: "npm start" pelo terminal dentro do projeto.
+Clone o repositório na sua máquina pelo comando: 
+```
+git clone https://github.com/DevBonatto/SPA-Universe.git
+```
+e em seguida use o comando:
+```
+npm start
+```
 
 ## 📄 Documentação Lógica
 [CLIQUE AQUI]() para ver a documentação lógica do projeto.
