@@ -3,7 +3,8 @@
 <p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-resultado">Resultado</a>&nbsp;&nbsp;&nbsp;
+   <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-layout">Documentação Lógica</a>&nbsp;&nbsp;&nbsp;
 </p>
 
 <br>
@@ -41,4 +42,7 @@ Neste desafio foi criado uma Single Page Application (SPA). Temas aplicados:
 Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/file/mWWxLYCbpmM3rMqWB7lKV8/Stage-05-Focus-Timer-2.0-Copy?fuid=1369823793362288511)
 
 ## 💻 Iniciar o projeto
-Clone o repositório na sua máquina e use o comando: "npm start" pelo terminal dentro do projeto.
+Clone o repositório na sua máquina pelo comando: "git clone https://github.com/DevBonatto/SPA-Universe.git" e em seguida use o comando: "npm start" pelo terminal dentro do projeto.
+
+## 📄 Documentação Lógica
+[CLIQUE AQUI]() para ver a documentação lógica do projeto.
