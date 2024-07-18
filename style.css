@@ -92,6 +92,13 @@ body.explorer {
   background-position: center;
 }
 
+body.invalidPath {
+  background-image: url('./assets/explorer.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
 body #app {
   display: flex;
   flex-direction: column;
