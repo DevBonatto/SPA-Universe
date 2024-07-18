@@ -46,7 +46,7 @@ Clone o repositório na sua máquina pelo comando:
 ```
 git clone https://github.com/DevBonatto/SPA-Universe.git
 ```
-e em seguida use o comando:
+e em seguida use o comando no terminal do projeto:
 ```
 npm start
 ```
